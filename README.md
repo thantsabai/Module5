@@ -82,6 +82,15 @@
            <div id="specials-tile"><span>specials</span></div> 
          </a> 
        </div> 
+        </div> 
+   <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12"> 
+   <a href="#" onclick="$dc.loadMenuItems('{{short_name}}');"> 
+     <div class="category-tile"> 
+       <img width="200" height="200" src="images/menu/{{short_name}}/{{short_name}}.jpg" alt="{{name}}"> 
+       <span>{{name}}</span> 
+     </div> 
+   </a> 
+ </div>
        <div class="col-md-4 col-sm-12 col-xs-12"> 
          <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank"> 
            <div id="map-tile"> 
@@ -108,15 +117,7 @@
      </div> 
    </div> 
    <hr class="visible-xs"> 
- </div> 
-   <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12"> 
-   <a href="#" onclick="$dc.loadMenuItems('{{short_name}}');"> 
-     <div class="category-tile"> 
-       <img width="200" height="200" src="images/menu/{{short_name}}/{{short_name}}.jpg" alt="{{name}}"> 
-       <span>{{name}}</span> 
-     </div> 
-   </a> 
- </div>
+
   <h2 id="menu-categories-title" class="text-center">{{name}} Menu</h2> 
  <div class="text-center">{{special_instructions}}</div> 
    <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div> 
